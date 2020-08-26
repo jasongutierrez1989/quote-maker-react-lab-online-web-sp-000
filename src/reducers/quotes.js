@@ -3,7 +3,7 @@ import * as actionTypes from '../actions/types'
 export default (state = [], action) => {
   switch(action.type){
 
-    case actionTypes.ADD_QUOTE: 
+    case actionTypes.ADD_QUOTE:
       return [...state, action.quote]
 
     case actionTypes.REMOVE_QUOTE:
